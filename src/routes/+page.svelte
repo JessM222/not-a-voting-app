@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Nav from '$lib/components/nav.svelte';
+	import IndividualCard from '$lib/components/individualCard.svelte';
+</script>
+
+
+<IndividualCard />
